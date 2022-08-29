@@ -1,0 +1,305 @@
+<header id="page-topbar">
+    <div class="navbar-header">
+      <div class="d-flex">
+        <!-- <div class="navbar-brand-box d-flex align-items-center justify-content-center">
+          <a [routerLink]="'/yonetim'" class="logo logo-dark">
+            <span class="logo-sm">
+              <img src="assets\images\blokbimslogo.png" alt="" height="70">
+            </span>
+            <span class="logo-lg">
+              <img src="assets\images\blokbimslogo.png" alt="" height="70">
+            </span>
+          </a>
+  
+          <a [routerLink]="'/yonetim'" class="logo logo-light">
+            <span class="logo-sm">
+              <img src="assets\images\blokbimslogo.png" alt="" height="70">
+            </span>
+            <span class="logo-lg">
+              <h1 class="text-white">
+                <img src="assets\images\blokbimslogo.png" alt="" height="70">
+              </h1>
+            </span>
+          </a>
+        </div> -->
+  
+        <div class="d-flex align-items-center justify-content-center">
+          <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+            <i class="fa fa-fw fa-bars"></i>
+          </button>
+  
+        </div>
+  
+      </div>
+  
+      <div class="d-flex">
+  
+        <div class="dropdown d-inline-block d-lg-none ms-2">
+  
+          <!-- <button (click)="navigateToBasket()" type="button" class="btn header-item noti-icon waves-effect">
+            <i title="Sepete git" class="mdi mdi-cart-arrow-right mb-2"></i>
+          </button>
+  
+          <button (click)="whatsappRedirect()" class="btn header-item noti-icon waves-effect" type="button">
+            <i class="mdi mdi-whatsapp mb-2 text-success"></i>
+          </button>
+          <a (click)="whatsappRedirect()">
+            Destek
+          </a> -->
+  
+  
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-search-dropdown">
+  
+            <form class="p-3">
+              <div class="form-group m-0">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+  
+        <div class="dropdown d-inline-block">
+          <!-- <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img id="header-lang-img" src="assets\images\flags\us.jpg" alt="Header Language" height="16">
+                      </button> -->
+          <div class="dropdown-menu dropdown-menu-end">
+  
+            <!-- <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
+              <img src="assets\images\flags\us.jpg" alt="user-image" class="me-1" height="12"> <span
+                class="align-middle">English</span>
+            </a>
+            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
+              <img src="assets\images\flags\spain.jpg" alt="user-image" class="me-1" height="12">
+              <span class="align-middle">Spanish</span>
+            </a>
+  
+            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
+              <img src="assets\images\flags\germany.jpg" alt="user-image" class="me-1" height="12">
+              <span class="align-middle">German</span>
+            </a>
+  
+            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
+              <img src="assets\images\flags\italy.jpg" alt="user-image" class="me-1" height="12">
+              <span class="align-middle">Italian</span>
+            </a>
+  
+            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
+              <img src="assets\images\flags\russia.jpg" alt="user-image" class="me-1" height="12">
+              <span class="align-middle">Russian</span>
+            </a> -->
+          </div>
+        </div>
+  
+        <!-- <div class="d-none d-lg-inline-block ms-1">
+  
+          <button (click)="navigateToBasket()" type="button" class="btn header-item noti-icon waves-effect">
+            <i title="Sepete git" class="mdi mdi-cart-arrow-right mb-2"></i>
+          </button>
+  
+          <button (click)="whatsappRedirect()" class="btn header-item noti-icon waves-effect" type="button">
+            <i class="mdi mdi-whatsapp mb-2 text-success"></i>
+          </button>
+          <a (click)="whatsappRedirect()">
+            Destek
+          </a>
+  
+        </div> -->
+  
+        <div class="dropdown d-none d-lg-inline-block ms-1">
+          <!-- <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="bx bx-customize"></i>
+          </button> -->
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+            <div class="px-lg-2">
+              <div class="row g-0">
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Yeni Task</span>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Tasklarım</span>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Duyurular</span>
+                  </a>
+                </div>
+              </div>
+  
+              <div class="row g-0">
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Faturalar</span>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Siparişler</span>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-icon-item" href="#">
+                    <span>Loglar</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="dropdown d-none d-lg-inline-block ms-1">
+          <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+            <i class="bx bx-fullscreen"></i>
+          </button>
+        </div>
+  
+        <div class="dropdown d-inline-block">
+          <!-- <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="bx bx-bell bx-tada"></i>
+            <span class="badge bg-danger rounded-pill">3</span>
+          </button> -->
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+            aria-labelledby="page-header-notifications-dropdown">
+            <div class="p-3">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h6 class="m-0" key="t-notifications"> Notifications </h6>
+                </div>
+                <div class="col-auto">
+                  <a href="#!" class="small" key="t-view-all"> View All</a>
+                </div>
+              </div>
+            </div>
+            <div data-simplebar="" style="max-height: 230px;">
+              <a href="" class="text-reset notification-item">
+                <div class="media">
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1" key="t-your-order">Duyuru 1</h6>
+                    <div class="font-size-12 text-muted">
+                      <p class="mb-1" key="t-grammer">Duyuru Başlığı</p>
+                      <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="text-reset notification-item">
+                <div class="media">
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1" key="t-your-order">Duyuru 1</h6>
+                    <div class="font-size-12 text-muted">
+                      <p class="mb-1" key="t-grammer">Duyuru Başlığı</p>
+                      <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="p-2 border-top d-grid">
+              <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">View
+                  More..</span>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="dropdown d-inline-block">
+          <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img class="rounded-circle header-profile-user" src="assets\images\users\avatar-2.jpg" alt="Header Avatar">
+            <span class="d-none d-xl-inline-block ms-1" key="t-henry">{{user?.fullName}}</span>
+            <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end">
+            <!-- item
+                      <a class="dropdown-item" href="javascript:;"><i class="bx bx-user font-size-16 align-middle me-1"></i>
+                          <span key="t-profile">Profil</span></a>
+                      <a class="dropdown-item d-block" href="javascript:;"><span
+                              class="badge bg-success float-end">11</span><i
+                              class="bx bx-wrench font-size-16 align-middle me-1"></i> <span
+                              key="t-settings">Ayarlar</span></a>
+                      <a class="dropdown-item" href="javascript:;"><i
+                              class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span
+                              key="t-lock-screen">Kilit Ekranı</span></a>
+                      <div class="dropdown-divider"></div>-->
+            <a class="dropdown-item text-danger" href="javascript:;" (click)="logout()"><i
+                class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Çıkış
+                Yap</span></a>
+  
+            <a class="dropdown-item" href="javascript:;" (click)="openMyAccountPopup()">
+              <i></i>
+              Parola Değiştir
+            </a>
+          </div>
+        </div>
+  
+        <div class="dropdown d-inline-block">
+          <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+            <i class="bx bx-cog bx-spin"></i>
+          </button>
+        </div>
+  
+      </div>
+    </div>
+  </header>
+  
+  <dx-popup class="popup" [width]="700" [minWidth]="700" [height]="300" [showTitle]="true" [title]="'Parola Değiştir'"
+    [dragEnabled]="false" [closeOnOutsideClick]="false" [showCloseButton]="true" [(visible)]="myAccountPopupVisible">
+    <div *dxTemplate="let data of 'content'">
+      <div class="popup-content">
+        <dx-scroll-view [scrollByContent]="true" [scrollByThumb]="true" [showScrollbar]="'always'" [height]="300"
+          [bounceEnabled]="false">
+  
+          <dx-validation-group class="row" #passwordUpdatevalidation>
+            <div class="col-md-12">
+              <div class="row">
+  
+                <div class="col-md-12">
+                  <div class="form-group mb-3">
+                    <label class="d-block">Parola*</label>
+                    <div>
+                      <dx-text-box placeholder="Kullanıcı parolasını giriniz..." mode="password" class="form-control"
+                        [(value)]="password">
+                        <dx-validator>
+                          <dxi-validation-rule type="required"></dxi-validation-rule>
+                        </dx-validator>
+                      </dx-text-box>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-12">
+                  <div class="form-group mb-3">
+                    <label class="d-block">Parola Tekrar*</label>
+                    <div>
+                      <dx-text-box placeholder="Kullanıcı parolasını tekrar giriniz..." mode="password"
+                        class="form-control" [(value)]="rePassword">
+                        <dx-validator>
+                          <dxi-validation-rule type="required"></dxi-validation-rule>
+                        </dx-validator>
+                      </dx-text-box>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-end">
+                <button type="button" class="btn btn-light mr-2" (click)="myAccountPopupVisible = false">Vazgeç</button>
+                <button type="button" class="btn btn-primary" (click)="save()">Kaydet</button>
+              </div>
+            </div>
+          </dx-validation-group>
+  
+        </dx-scroll-view>
+      </div>
+    </div>
+  </dx-popup>

@@ -1,0 +1,66 @@
+{
+    "landing": {
+        "satin-alma": {
+            "offer": {
+                "title": "AnkaPark Teklif Sayfası",
+                "description": "Satın Alma işlemlerinde firmanız adına oluşturulan satın alma kaydına bu sayfa aracılığı ile teklif verebilir ve teklif durumlarını takip edebilirsiniz.",
+                "table" : {
+                    "products-name": "Kalemler",
+                    "offers-name": "{{product}} Kalemi İçin Teklifler",
+                    "column-1": "Ürün",
+                    "column-2": "Talep Edilen Miktar",
+                    "column-3": "Teklif Edilen Döviz",
+                    "column-4": "Teklif Edilen Birim Fiyat",
+                    "column-5": "Teklif Durumu Açıklaması",
+                    "column-6": "Revizyon No",
+                    "column-7": "Teklif Durumu"
+                },
+                "return-products": "Kalemlere Dön",
+                "new-offer": "Yeni Teklif Yarat",
+                "submit": "Kaydet",
+                "loading": "Yükleniyor...",
+                "cancel": "Vazgeç",
+                "select": "Seç",
+                "success-message-title": "Yeni teklif başarıyla kaydedildi.",
+                "success-message-description": "Yeni teklif eski revizyonun üstüne yazılarak kaydedildi. Teklifin son durumunu bu sayfadan takip edebilirsiniz.",
+                "error-message-title": "Hata yaşandı!",
+                "error-message-description": "Lütfen daha sonra tekrar deneyiniz. Eğer sorun devam ederse yardım sayfasından ilgili destek ekibiyle irtibata geçiniz.",
+                "are-you-sure" : "Bu teklifi silmek istediğinize emin misiniz?",
+                "company": "Firma",
+                "note": "Not",
+                "offer-was-over": "Teklif işlemleri bitti.",
+                "offer-was-not-over": "Teklif işlemleri devam ediyor.",
+                "select-product": "Kalemi Görüntüle",
+                "input-success": "Girdiğiniz değer iyi gözüküyor",
+                "input-required": "Bu alanın girilmesi gereklidir",
+                "cant-make-new-offer": "Teklif onaylandığı için yeni bir teklif yapılamaz.",
+                "labels": {
+                    "currency": "Döviz",
+                    "unit-price": "Birim Fiyat",
+                    "payment-type": "Tahsilat Tipi",
+                    "settlement-date": "Vade (Ay)",
+                    "length-of-term": "Termin Gün Sayısı",
+                    "placeholder-unit-price": "Sayısal veya Ondalıklı Değer örneğin 10,40",
+                    "placeholder-settlement-date": "Boş veya Sayısal değer örneğin 1, 3, 6, 9, 12",
+                    "placeholder-length-of-term": "Sayısal Değer örneğin 7, 14, 21, 30, 60, 90"
+                },
+                "states": {
+                    "there-is-no-offer": "Henüz Teklif Yapılmadı",
+                    "request-was-not-checked": "Teklif henüz kontrol edilmedi",
+                    "request-not-confirmed": "Teklif reddedildi",
+                    "request-confirmed": "Teklif onaylandı",
+                    "request-was-updated": "Teklif Güncellendi"
+                }
+            }
+        }
+    },
+    "enums": {
+        "tahsilat-tip": {
+            "Senet": "Senet",
+            "Cek": "Çek",
+            "Banka": "Banka",
+            "KrediKarti": "Kredi Kartı",
+            "Nakit": "Nakit"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<div class="containter">
+    <div class="row justify-content-start">
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="formFile" class="form-label"><b>Sicil Kayıt Tablosuna Uygun Excel Dosyası Seçiniz</b></label>
+                <input class="form-control" type="file" (change)="fileExcelUpload($event)" multiple="false"
+                    accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="formFile" class="form-label"><b>Sicil Kayıt Tablosu Örneği</b></label><br>
+                <button type="button" class="btn btn-lg btn-info" (click)="excelExport()">Excel İndir</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-bordered table-primary">
+                <thead class="table-light">
+                    <tr *ngFor="let header of headers">
+                        <th scope="col" *ngFor="let item of header">
+                            {{item}}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let row of data">
+                        <td *ngFor="let cell of row">
+                            {{cell}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button [disabled]="saveButtonDisabled==true" type="button" class="btn btn-lg btn-success"
+                (click)="saveRegisterExcel()">Kaydet</button>
+        </div>
+    </div>
+</div>

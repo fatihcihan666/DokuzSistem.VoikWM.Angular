@@ -1,0 +1,26 @@
+<!-- <dx-popup class="popup" [showTitle]="true" [width]="width ? width : 800" [height]="height ? height : 800"
+  [height]="'max-content'" [showCloseButton]="true" [resizeEnabled]="false" [title]="title" [dragEnabled]="false"
+  [closeOnOutsideClick]="false" [(visible)]="popupVisible" [maxWidth]="'95vw'" [maxHeight]="'95vh'"
+  (onHidden)="close()">
+  <div *dxTemplate="let data of 'content'">
+    <dx-scroll-view *ngIf="imageContent" [showScrollbar]="'always'" [scrollByContent]="true" [scrollByThumb]="true"
+      [bounceEnabled]="false">
+      <div class="popup-content">
+        <img [src]="imageContent | safe: 'resourceUrl'" class="w-100">
+      </div>
+    </dx-scroll-view>
+    <object *ngIf="pdfBlobUri" [data]="pdfBlobUri | safe: 'resourceUrl'" type="application/pdf" width="100%"
+      style="height: 80vh;">
+      <div class="no-content bg-white" style="height: 80vh; font-size: 2rem">
+        <div class="message">
+          <i aria-hidden="true" class="fa fa-meh-o"></i>
+          <h4>Tarayıcınız bu belgeyi göstermeyi desteklememektedir lütfen indirerek görüntülemeyi deneyin.</h4>
+          <a [attr.href]="pdfBlobUri | safe: 'resourceUrl'" [download]="'data'">İndir</a>
+        </div>
+      </div>
+    </object>
+    <object *ngIf="pdfBlobUri" class="w-100" style="height: 80vh;" [data]="pdfBlobUri | safe: 'resourceUrl'"
+      type="application/pdf">
+    </object>
+  </div>
+</dx-popup> -->

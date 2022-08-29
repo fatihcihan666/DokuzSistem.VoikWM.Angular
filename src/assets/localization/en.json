@@ -1,0 +1,66 @@
+{
+    "landing": {
+        "satin-alma": {
+            "offer": {
+                "title": "AnkaPark Offer Page",
+                "description": "You can bid on the purchase record created in the name of your company in this transaction and follow the offer status.",
+                "table" : {
+                    "products-name": "Products",
+                    "offers-name": "Offers For {{product}}",
+                    "column-1": "Product",
+                    "column-2": "Requested Quantity",
+                    "column-3": "Requested Currency",
+                    "column-4": "Offered Unit Price",
+                    "column-5": "Demand Status Description",
+                    "column-6": "Revision Number",
+                    "column-7": "Demand Status"
+                },
+                "return-products": "Return to Products",
+                "new-offer": "Make New Offer",
+                "submit": "Save",
+                "cancel": "Cancel",
+                "success-message-title": "The new offer was successfully saved.",
+                "success-message-description": "The new offer was saved by overwriting the old revision. You can follow the latest status of the offer from this page.",
+                "company": "Company",
+                "note": "Note",
+                "offer-was-over": "Offering process is over.",
+                "offer-was-not-over": "Offer transactions in progress.",
+                "are-you-sure": "Are you sure want to delete this offer?",
+                "error-message-title": "Error!",
+                "error-message-description": "Please try again later. If the problem persists, contact the relevant support team on the help page.",
+                "loading": "Loading...",
+                "select": "Select",
+                "select-product": "Show Product",
+                "input-success": "You are entered value was good",
+                "input-required": "It's looks like you are not entered the value",
+                "cant-make-new-offer": "Since the proposal has been approved, no new proposal can be made.",
+                "labels": {
+                    "currency": "Currency",
+                    "unit-price": "Unit Price",
+                    "payment-type": "Tahsilat Tipi",
+                    "settlement-date": "Settlement Date (Month)",
+                    "length-of-term": "Length of Term",
+                    "placeholder-unit-price": "Decimal or Numeric Value like 10.40, 1000",
+                    "placeholder-settlement-date": "Empty or Numeric Value like 1, 3, 6, 9, 12",
+                    "placeholder-length-of-term": "Numeric Value like 7, 14, 21, 30, 60, 90"
+                },
+                "states": {
+                    "there-is-no-offer": "No offer has been made",
+                    "request-was-not-checked": "Offer has not yet been checked",
+                    "request-not-confirmed": "Offer denied",
+                    "request-confirmed": "Offer approved",
+                    "request-was-updated": "Offer was updated"
+                }
+            }
+        }
+    },
+    "enums": {
+        "tahsilat-tip": {
+            "Senet": "Bill",
+            "Cek": "Cheque",
+            "Banka": "Bank",
+            "KrediKarti": "Credit Card",
+            "Nakit": "Cash"
+        }
+    }
+}
